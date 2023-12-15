@@ -9,19 +9,19 @@ struct Screen_2_1: View {
             HStack {
                 Button(action: {
                 }) {
-                    Image(systemName: "chevron.left")
+                    Image("back_b")
                 }
 
                 Spacer()
 
                 Button(action: {
                 }) {
-                    Image(systemName: "cart")
+                    Image("cart_b")
                 }
 
                 Button(action: {
                 }) {
-                    Image(systemName: "line.horizontal.3")
+                    Image("more_b")
                 }
             }
             .padding()
@@ -57,8 +57,7 @@ struct Screen_2_1: View {
                 
                 Button(action: {
                 }) {
-                    Image(systemName: "bookmark")
-                        .foregroundColor(.gray)
+                    Image("bookmark_b")
 
                 }
             }
@@ -73,7 +72,7 @@ struct Screen_2_1: View {
                     .foregroundColor(.black)
                     .fontWeight(.bold)
                 
-                Text("Доставим 6 августа, Санкт-Петербург — 140 Р.\nБесплатная доставка от 15 000 Р.")
+                Text("Доставим 6 августа, Санкт-Петербург — 140 ₽.\nБесплатная доставка от 15 000 ₽.")
                     .foregroundColor(.gray)
             }
             .frame(maxWidth: .infinity, alignment: .leading)
