@@ -40,7 +40,7 @@ struct Screen_2_1: View {
         }
 
         VStack(alignment: .leading, spacing: 4) {
-            Text("Мемы жизненные")
+            Text("Картинки обычные")
                 .font(.title)
                 .padding(.top)
 
